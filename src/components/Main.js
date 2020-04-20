@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { search } from "./../locale/en";
 import axios from "axios";
 import User from "./User";
 import "./../styles/Main.css";
