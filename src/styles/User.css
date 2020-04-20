@@ -1,0 +1,35 @@
+.user-container {
+  margin: 4vh;
+}
+.avatar {
+  height: auto;
+  width: 30vh;
+  border-radius: 50%;
+}
+
+.user-links {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  color: var(--themecolor);
+}
+
+.sub-links {
+  display: flex;
+  justify-content: center;
+  background: var(--themecolor);
+  border-radius: 10px;
+}
+
+.sub {
+  color: var(--secondarycolor);
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

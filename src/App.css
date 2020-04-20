@@ -1,3 +1,10 @@
+:root {
+  --themecolor: #0067b8;
+  --secondarycolor: floralwhite;
+  color: var(--themecolor);
+  background: var(--secondarycolor);
+}
+
 .App {
   text-align: center;
 }

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { search } from "./../locale/en";
 import axios from "axios";
 import User from "./User";
+import "./../styles/Main.css";
 
 class Main extends Component {
   state = {
@@ -53,16 +54,18 @@ class Main extends Component {
 
   render() {
     return (
-      <div>
-        <h1>{search}</h1>
+      <div className="main">
         <input
+          className="myinput"
           type="text"
           name="input-search"
           onKeyPress={this.handleOnKeyPress}
           onChange={this.handleOnChange}
           value={this.state.inputValue}
         />
-        <button onClick={this.handleOnClick}>Search</button>
+        <button className="mybutton" onClick={this.handleOnClick}>
+          Search
+        </button>
         <User data={this.state.response} />
       </div>
     );

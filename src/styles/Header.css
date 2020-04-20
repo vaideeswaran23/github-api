@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--themecolor);
+}
+
+.header-links {
+  text-decoration: none;
+  color: var(--secondarycolor);
+  font-weight: 500;
+  font-size: 28px;
+  padding: 10px;
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: 50px;
+  }
+}
